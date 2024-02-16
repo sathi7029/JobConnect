@@ -1,66 +1,30 @@
-# Job Portal
+# JobConnect
 
-Job Portal is a MERN Stack based web app which helps in streamlining the flow of job application process. It allows users to select there roles (applicant/recruiter), and create an account. In this web app, login session are persistent and REST APIs are securely protected by JWT token verification. After logging in, a recruiter can create/delete/update jobs, shortlist/accept/reject applications, view resume and edit profile. And, an applicant can view jobs, perform fuzzy search with various filters, apply for jobs with an SOP, view applications, upload profile picture, upload resume and edit profile. Hence, it is an all in one solution for a job application system.
+## Overview
 
-Demo: [Click Here](https://www.youtube.com/watch?v=lIrN-LbbBnw&ab_channel=ShlokPandey)
+JobConnect is a web application designed to streamline the job search process for both jobseekers and employers. It provides an intuitive platform for jobseekers to find opportunities and for employers to efficiently post and manage job listings. With a user-friendly interface and streamlined features, JobConnect aims to enhance accessibility and facilitate efficient job connections.
 
-Directory structure of the web app is as follows:
+## Tech Stack
 
-```
-- backend/
-    - public/
-        - profile/
-        - resume/
-- frontend/
-- README.md
-```
+- MongoDB: A NoSQL database used to store job listings and user data.
+- Express.js: A web application framework for Node.js used to build the backend server and RESTful API.
+- React.js: A JavaScript library used to build the user interface and components.
+- Node.js: A JavaScript runtime environment used to run the server-side code.
 
-## Instructions for initializing web app:
+## Features
 
-- Install Node JS, MongoDB in the machine.
-- Start MongoDB server: `sudo service mongod start`
-- Move inside backend directory: `cd backend`
-- Install dependencies in backend directory: `npm install`
-- Start express server: `npm start`
-- Backend server will start on port 4444.
-- Now go inside frontend directory: `cd ..\frontend`
-- Install dependencies in frontend directory: `npm install`
-- Start web app's frontend server: `npm start`
-- Frontend server will start on port 3000.
-- Now open `http://localhost:3000/` and proceed creating jobs and applications by signing up in required categories.
+- **Create**: Employers can create and post job listings.
+- **Read**: Jobseekers can browse and view job listings.
+- **Update**: Employers can update and manage their job listings.
+- **Delete**: Employers can delete job listings.
 
-## Dependencies:
+## My Contribution
 
-- Frontend
-  - @material-ui/core
-  - @material-ui/icons
-  - @material-ui/lab
-  - axios
-  - material-ui-chip-input
-  - react-phone-input-2
-- Backend
-  - bcrypt
-  - body-parser
-  - connect-flash
-  - connect-mongo
-  - cors
-  - crypto
-  - express
-  - express-session
-  - jsonwebtoken
-  - mongoose
-  - mongoose-type-email
-  - multer
-  - passport
-  - passport-jwt
-  - passport-local
-  - uuid
+As part of the development team, I led the frontend development of JobConnect. My responsibilities included designing and implementing features to enhance accessibility and user experience. I contributed to the project's overall goal of facilitating efficient job connections for users.
 
-# Machine Specifications
 
-Details of the machine on which the webapp was tested:
+## Demo
 
-- Operating System: Elementary OS 5.1 (Hera)
-- Terminal: Bash
-- Processor: Intel Core i7-8750H CPU @ 2.20 GHz 2.21 GHz
-- RAM: 16 GB
+[View Demo](https://www.youtube.com/watch?v=8tQ5SITdBPE)
+
+
